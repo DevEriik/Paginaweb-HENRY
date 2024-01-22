@@ -3,44 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Mi primer sitio web</title>
 </head>
-<body>
+<body class="fondo">
     <header>
-        <span>Sobre mí</span>
-        <span>Trabajos</span>
-        <span>Datos de contacto</span>
+        <div id="titulos">
+            <h1 class="tittle">DevErick</h1>
+            <h2 class="tittle">Gonzalez Erick </h2>
+        </div>
     </header>
     <main>
-        <div>
-        <h3>Gonzalez Erick Developer</h3>
-        </div>
+        <article>
+            <h3 class="tittle">Developer</h3>
+            <p>Me llamo Erick Gonzalez, soy de Villa Regina, Rio Negro, Argentina</p>
+            <p>Tambien me interesa el desarrollo Backend</p>
+        </article>
+        <article>
+            <div class="cards">
+                <h4 class="tittle">HTML</h4>
+                <img src="./hmtlLogo.png" alt="" class="logo">
+            </div>
+            <div class="cards">
+                <h4 class="tittle">CSS</h4>
+                <img src="./css-logo.png" alt="" class="logo">
+            </div>
+            <div class="cards">
+                <h4 class="tittle">JavaScript</h4>
+                <img src="./JavaScript-logo.png" alt="" class="logo">
+            </div>
+        </article>
     </main>
-    <section>
-        <h1>Sobre mí</h1>
-    </section>
-    <section>
-        <h1>Skills</h1>
-    </section>
-    <section>
-        <h1>Datos de contacto</h1>
-    </section>
+
     <footer>
-        <form>
-            <div>
-                <input type="text" name="nombre" placeholder="Nombre">
-            </div>
-            <div>
-                <input type="text" name="apellido" placeholder="Apellido">
-            </div>
-            <div>
-                <input type="number" name="edad" placeholder="Edad">
-            </div>
-            <div>
-                <input type="text" name="datos" placeholder="Mensaje de contacto">
-            </div>
-            <button type="button">Enviar</button>
-        </form>
+        <p>Si quieres contactarme puedes usar este <a href="">FORMULARIO DE CONTACTO</a></p>
     </footer>
 </body>
 </html>
